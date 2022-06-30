@@ -11,6 +11,7 @@
     justify-content: center;
     margin:0 auto;
     height: 100vh;
+    position: relative;
 }
 
 .card__container{
@@ -23,6 +24,7 @@
     padding-left: 90px;
     padding-right: 40px;
     background-color: black;
+    
      
 }
 
@@ -52,6 +54,40 @@ p{
 }
 
 .toolbar{
-    background-color: rgb(13, 73, 125);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(6, 6, 6, 0.648);
     height: 200px;
+    color: white;
+}
+
+ul li{
+    display:inline-block;
+    text-decoration: none;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+#green{
+    color: lightgreen;
+}
+
+.end__meeting{s
+    display: inline-block;
+    height: 100%;
+    width:200px;
+    padding-top:30px;
+    text-align: center;
+    border:solid 1px white;
+    background-color:lightgrey;
+    color:red;
+}
+
+#top__text{
+    position: absolute;
+    display: inline-block;
+    top:3px;
+    
 }
