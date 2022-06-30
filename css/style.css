@@ -27,7 +27,7 @@
 .card__img{
     border: solid 1px black;
     width:calc((100%*7)/3);
-    height: 200px;
+    min-height: 200px;
     margin-left: 20px;
     margin-bottom: 20px;
 }
