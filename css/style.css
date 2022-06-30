@@ -20,7 +20,7 @@
     flex-wrap: wrap; 
     padding-top: 40px;
     padding-bottom: 20px;
-    padding-left: 90px;
+    padding-left: 100px;
     padding-right: 40px;
     background-color: black;
     position: relative;
@@ -74,7 +74,7 @@ ul li{
     color: lightgreen;
 }
 
-.end__meeting{s
+.end__meeting{
     display: inline-block;
     height: 100%;
     width:200px;
@@ -85,10 +85,14 @@ ul li{
     color:red;
 }
 
-#top__text{
+.icons{
     position: absolute;
-    display: inline-block;
-    top:3px;
-    right: 15px;
+    display:block;
+    height: 20px;
+    width: 150px;
+    top:15px;
+    right: 25px;
+    background-color: gray;
+    opacity: 0.5;
     
 }
