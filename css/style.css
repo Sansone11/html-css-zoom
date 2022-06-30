@@ -2,17 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: solid 1 px black;
+    border: 1px black;
 }
 .container{
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     align-content: center;
     padding: 40px,20px,40px,40px;
-    background-color: black;
     margin:0 auto;
     height: 100vh;
 }
@@ -20,22 +18,21 @@
 .card__container{
     flex-grow: 1;
     flex-basis:calc((100%*7)/5);
-    background-color: brown;
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap; 
+    padding: 20px,20px,10px,20px;
      
 }
 
 .card__img{
-    border: solid 1px black;
-    width:200px;
+    width:180px;
     height:100px;
+    border: solid 1px black;
 
 }
 
 .toolbar{
     background-color: rgb(13, 73, 125);
     height: 200px;
-    width: 1200px;
 }
